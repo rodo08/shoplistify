@@ -151,8 +151,13 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 860px) {
+  .app-title h1 {
+    font-size: 4rem;
+  }
+
   .add-form {
     flex-direction: column;
+    width: 100%;
     h3 {
       padding-bottom: 1rem;
     }
@@ -169,5 +174,9 @@ input[type="checkbox"] {
 
   .list ul {
     justify-items: center;
+  }
+
+  .stats em {
+    font-size: 1.5rem;
   }
 }
